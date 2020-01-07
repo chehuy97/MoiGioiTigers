@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/leave_info_in_sell" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        style="@style/Edit_Box"
+        android:hint="Họ và tên"
+        android:background="@drawable/rounded_border_edit_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        style="@style/Edit_Box"
+        android:hint="Số Điện Thoại"
+        android:background="@drawable/rounded_border_edit_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        style="@style/Edit_Box"
+        android:hint="Email"
+        android:background="@drawable/rounded_border_edit_text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Địa chỉ"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Spinner
+            style="@style/Spinner_Address"
+            android:autofillHints="Tỉnh/Thành Phố"/>
+        <Spinner
+            style="@style/Spinner_Address"
+            android:autofillHints="Huyện/Quận"/>
+        <Spinner
+            style="@style/Spinner_Address"
+            android:autofillHints="Xã/Phường"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Tôi Muốn Mua Sản Phẩm này"/>
+</LinearLayout>

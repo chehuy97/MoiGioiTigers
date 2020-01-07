@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.customer.ProductDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/img_productdetail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/product"
+        />
+    <TextView
+        android:layout_below="@+id/img_productdetail_image"
+        android:id="@+id/tv_productdetail_productname"
+        android:text="Tên bất động sản"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/colorRed"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/tv_productdetail_productname"
+        android:id="@+id/tv_productdetail_productcostlabel"
+        android:text="Giá sản phẩm : "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_productdetail_productcost"
+        android:layout_toRightOf="@+id/tv_productdetail_productcostlabel"
+        android:layout_below="@+id/tv_productdetail_productname"
+        android:text="10000vnd"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/tv_productdetail_productcost"
+        android:id="@+id/tv_productdetail_productlocationlabel"
+        android:text="Vị trí : "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_productdetail_productlocation"
+        android:layout_toRightOf="@+id/tv_productdetail_productcostlabel"
+        android:layout_below="@+id/tv_productdetail_productcost"
+        android:text="123 Đà Nẵng"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/tv_productdetail_productlocation"
+        android:id="@+id/tv_productdetail_productacreagelabel"
+        android:text="Diện tích : "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_productdetail_productacreage"
+        android:layout_toRightOf="@+id/tv_productdetail_productacreagelabel"
+        android:layout_below="@+id/tv_productdetail_productlocation"
+        android:text="100m2"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/tv_productdetail_productacreage"
+        android:id="@+id/tv_productdetail_productstatuslabel"
+        android:text="Trạng thái : "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_productdetail_productstatus"
+        android:layout_toRightOf="@+id/tv_productdetail_productstatuslabel"
+        android:layout_below="@+id/tv_productdetail_productacreage"
+        android:text="bán"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_producdetail_back"
+        android:layout_below="@+id/tv_productdetail_productstatus"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="back"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        ></Button>
+
+
+
+</RelativeLayout>

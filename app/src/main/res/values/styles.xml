@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#111</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashbackground</item>
+    </style>
+
+    <style name="ProfileTheme">
+        <item name="android:textColor">#111</item>
+    </style>
+    <style name="Edit_Box">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/rounded_border_edit_text</item>
+    </style>
+    <style name="Spinner_Address">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+    <style name="Dialog_Theme">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="custom_text_view_change_pass">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="custom_edit_text_change_pass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/rounded_border_edit_text</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="custom_info_profile">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/rounded_border_edit_text</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="TextView_Add_Post">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+</resources>

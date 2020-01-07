@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+      <LinearLayout
+          android:id="@+id/ll_search"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <Button
+          android:id="@+id/btn_buy_search"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAlignment="center"
+          android:text="Tìm kiếm"
+          android:background="@drawable/radius"
+          android:textColor="@color/colorWhite"
+          android:textSize="20dp"
+          android:layout_margin="10dp"
+          />
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

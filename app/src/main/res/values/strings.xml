@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoiGioiTiges</string>
+    <string name="nav_header_title">Bất động sản</string>
+    <string name="nav_header_subtitle">Được xây dựng bởi DevTeam</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leave_info_in_sell">Mời bạn để lại thông tin cần thiết, đội ngũ nhân viên của chúng tôi sẽ liên lạc trực tiếp với bạn</string>
+</resources>

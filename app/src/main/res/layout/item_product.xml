@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_buy_frame"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/frame"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/iv_buy_imageProduct"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:paddingTop="15dp"
+        />
+    <TextView
+        android:id="@+id/tv_name_buy_Product"
+        android:layout_below="@+id/iv_buy_imageProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Villa TextView"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_price_buy_product"
+        android:layout_below="@+id/tv_name_buy_Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1Tỷ 200Triệu VND"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/colorRed"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_buy_Detail"
+        android:layout_below="@+id/tv_name_buy_Product"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi tiết +"
+        />
+</RelativeLayout>

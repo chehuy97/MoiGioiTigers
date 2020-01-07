@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tv_customertitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorRed"
+        android:text="DANH SÁCH KHÁCH HÀNG"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/tv_customertitle"
+        android:id="@+id/rv_listCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

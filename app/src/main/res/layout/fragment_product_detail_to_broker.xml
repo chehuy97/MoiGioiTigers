@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/img_productdetail_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/product" />
+
+        <TextView
+            android:id="@+id/tv_productdetail_productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_productdetail_image"
+            android:text="Tên bất động sản"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Giá bán: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_productdetail_productcost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="10000vnd"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vị trí : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_productdetail_productlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="123 Đà Nẵng"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Diện tích : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_productdetail_productacreage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="100m2"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Trạng thái : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_productdetail_productstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="bán"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Edit"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Delete"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
